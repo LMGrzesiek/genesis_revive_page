@@ -62,75 +62,89 @@
                             <label for="collectionDropdown">Select a Collection:</label>
                             <select id="collectionDropdown">
                             </select>
-                            <div class="collection_selection" id="cabinetCollections">
-                                <div id="cabinet_wood_collection" class="collection">
-                                    <p>WOOD COLLECTION</p>
-                                    <div class="four_col_no_gap">
+                        </div>
+                        <div class="collection_selection" id="cabinetCollections">
+                            <div id="cabinet_wood_collection" class="collection">
+                                <p>WOOD COLLECTION</p>
+                                <div class="four_col_no_gap flex-container">
+                                    <div class="swatch-container">
                                         <img class="swatch_collection" onclick="changeProductImage('cabBirchBark')"
-                                        data-swatch-key="cabBirchBark"
+                                            data-swatch-key="cabBirchBark"
                                             src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_BirchBark_Swatch.jpg" />
-                                        <img class="swatch_collection" onclick="changeProductImage('cabBlondeWalnut')"
-                                        data-swatch-key="cabBlondeWalnut"
+                                        <div class="tooltip">Birch Bark</div>
+                                    </div>
+                                    <div class="swatch-container">
+                                        <img class="swatch_collection"
+                                            onclick="changeProductImage('cabBlondeWalnut')"
+                                            data-swatch-key="cabBlondeWalnut"
                                             src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_BlondeWalnut_Swatch.jpg" />
+                                        <div class="tooltip">Blonde Walnut</div>
+                                    </div>
+                                    <div class="swatch-container">
                                         <img class="swatch_collection" onclick="changeProductImage('cabGreenOak')"
-                                        data-swatch-key="cabGreenOak"
+                                            data-swatch-key="cabGreenOak"
                                             src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_GreenOak_Swatch.jpg" />
+                                        <div class="tooltip">Green Oak</div>
+                                    </div>
+                                    <div class="swatch-container">
                                         <img class="swatch_collection" onclick="changeProductImage('cabAlpineAsh')"
-                                        data-swatch-key="cabAlpineAsh"
+                                            data-swatch-key="cabAlpineAsh"
                                             src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_AlpineAsh_Swatch.jpg" />
+                                        <div class="tooltip">Alpine Ash</div>
                                     </div>
-                                </div>
-                                <div id="cabinet_smooth_collection" class="collection" style="display:none;">
-                                    <p>SMOOTH COLLECTION</p>
-                                    <div class="four_col_no_gap">
-                                        <img class="swatch_collection" onclick="changeProductImage('cabDesginerWhite')"
-                                        data-swatch-key="cabDesginerWhite"
-                                            src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_DesginerWhite_Swatch.jpg" />
-                                        <img class="swatch_collection" onclick="changeProductImage('cabStoneGray')"
-                                        data-swatch-key="cabStoneGray"
-                                            src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_StoneGray_Swatch.jpg" />
-                                        <img class="swatch_collection" onclick="changeProductImage('cabMidnightBlue')"
-                                        data-swatch-key="cabMidnightBlue"
-                                            src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_MidnightBlue_Swatch.jpg" />
-                                        <img class="swatch_collection" onclick="changeProductImage('cabMatteBlack')"
-                                        data-swatch-key="cabMatteBlack"
-                                            src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_MatteBlack_Swatch.jpg" />
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="collection_selection" id="wallboardCollections" style="display:none;">
-                                <div id="wallboard_linen_collection" class="collection">
-                                    <p>LINEN COLLECTION</p>
-                                    <div class="four_col_no_gap">
-                                        <img class="swatch_collection"
-                                            onclick="changeProductImage('wallStructuredLinen')"
-                                            data-swatch-key="wallStructuredLinen"
-                                            src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Wall_StructuredLinen_Swatch.jpg" />
-                                    </div>
+                            <div id="cabinet_smooth_collection" class="collection" style="display:none;">
+                                <p>SMOOTH COLLECTION</p>
+                                <div class="four_col_no_gap">
+                                    <img class="swatch_collection" onclick="changeProductImage('cabDesginerWhite')"
+                                        data-swatch-key="cabDesginerWhite"
+                                        src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_DesginerWhite_Swatch.jpg" />
+                                    <img class="swatch_collection" onclick="changeProductImage('cabStoneGray')"
+                                        data-swatch-key="cabStoneGray"
+                                        src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_StoneGray_Swatch.jpg" />
+                                    <img class="swatch_collection" onclick="changeProductImage('cabMidnightBlue')"
+                                        data-swatch-key="cabMidnightBlue"
+                                        src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_MidnightBlue_Swatch.jpg" />
+                                    <img class="swatch_collection" onclick="changeProductImage('cabMatteBlack')"
+                                        data-swatch-key="cabMatteBlack"
+                                        src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Cab_MatteBlack_Swatch.jpg" />
+
                                 </div>
-                                <div id="wallboard_wood_collection" class="collection" style="display:none;">
-                                    <p>WOOD COLLECTION</p>
-                                    <div class="four_col_no_gap">
-                                        <img class="swatch"
-                                            src="https://genesisproductsinc.com/content/uploads/2023/07/Wallboard_Wood-20.png" />
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="collection_selection" id="wallboardCollections" style="display:none;">
+                            <div id="wallboard_linen_collection" class="collection">
+                                <p>LINEN COLLECTION</p>
+                                <div class="four_col_no_gap">
+                                    <img class="swatch_collection"
+                                        onclick="changeProductImage('wallStructuredLinen')"
+                                        data-swatch-key="wallStructuredLinen"
+                                        src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Wall_StructuredLinen_Swatch.jpg" />
                                 </div>
-                                <div id="wallboard_smooth_collection" class="collection" style="display:none;">
-                                    <p>SMOOTH COLLECTION</p>
-                                    <div class="four_col_no_gap">
-                                        <img class="swatch"
-                                            src="https://genesisproductsinc.com/content/uploads/2023/07/Wallboard_Smooth-21.png" />
-                                    </div>
+                            </div>
+                            <div id="wallboard_wood_collection" class="collection" style="display:none;">
+                                <p>WOOD COLLECTION</p>
+                                <div class="four_col_no_gap">
+                                    <img class="swatch"
+                                        src="https://genesisproductsinc.com/content/uploads/2023/07/Wallboard_Wood-20.png" />
                                 </div>
-                                <div id="wallboard_specialty_collection" class="collection" style="display:none;">
-                                    <p>SPECIALTY</p>
-                                    <div class="four_col_no_gap">
-                                        <img class="swatch_collection"
-                                            onclick="changeProductImage('wallWhitewashPlankedWood')"
-                                            data-swatch-key="wallWhitewashPlankedWood"
-                                            src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Wall_WhitewashPlankedWood_Swatch.jpg" />
-                                    </div>
+                            </div>
+                            <div id="wallboard_smooth_collection" class="collection" style="display:none;">
+                                <p>SMOOTH COLLECTION</p>
+                                <div class="four_col_no_gap">
+                                    <img class="swatch"
+                                        src="https://genesisproductsinc.com/content/uploads/2023/07/Wallboard_Smooth-21.png" />
+                                </div>
+                            </div>
+                            <div id="wallboard_specialty_collection" class="collection" style="display:none;">
+                                <p>SPECIALTY</p>
+                                <div class="four_col_no_gap">
+                                    <img class="swatch_collection"
+                                        onclick="changeProductImage('wallWhitewashPlankedWood')"
+                                        data-swatch-key="wallWhitewashPlankedWood"
+                                        src="http://genesisproductsinc.com/content/uploads/2024/01/Revive_Wall_WhitewashPlankedWood_Swatch.jpg" />
                                 </div>
                             </div>
                         </div>
